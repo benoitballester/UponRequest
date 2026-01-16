@@ -38,7 +38,7 @@ The structure, scripts, and outputs may evolve as analyses are refined.
 ## License
 
 This project is released under the GNU General Public License v3.0.  
-See the LICENSE file for details.
+See the [LICENCE](LICENSE) file for details.
 
 ## Citation
 
