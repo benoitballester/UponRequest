@@ -1,4 +1,5 @@
 # UponRequest
+
 This repository contains code to study data availability statements such as “data available upon request” in the scientific articles.
 
 The project focuses on large scale text mining of full text articles to detect, classify, and quantify request based access practices across journals, years.
