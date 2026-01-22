@@ -1,0 +1,4 @@
+group	n	pct_all
+ok_analysis == 1 (all)	123211	96.650481248186
+ok_analysis == 1 & not_UR	103020	80.81204257889411
+ok_analysis == 0	4270	3.3495187518139957

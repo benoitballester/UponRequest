@@ -1,0 +1,111 @@
+journal	metric	pct_yes
+BMC bioinformatics	data_public_repo	54.27509293680297
+BMC genomics	data_public_repo	79.25949501379164
+Bioinformatics (Oxford, England)	data_public_repo	53.10583844308184
+Cell	data_public_repo	83.75558867362146
+Cell genomics	data_public_repo	88.62433862433863
+EMBO reports	data_public_repo	71.79902755267423
+Frontiers in genetics	data_public_repo	58.89222338204593
+Genome biology	data_public_repo	86.30688683044704
+Genome research	data_public_repo	89.02374670184696
+Lancet (London, England)	data_public_repo	12.16931216931217
+Molecular systems biology	data_public_repo	76.14424410540916
+NAR genomics and bioinformatics	data_public_repo	89.29824561403508
+Nature	data_public_repo	76.16639852907377
+Nature communications	data_public_repo	59.994319392174965
+Nature genetics	data_public_repo	76.0459392945037
+Nature medicine	data_public_repo	46.58333333333333
+Nucleic acids research	data_public_repo	68.88888888888889
+PLoS biology	data_public_repo	67.28750423298341
+PLoS genetics	data_public_repo	68.74564459930313
+Science (New York, N.Y.)	data_public_repo	81.84615384615384
+The EMBO journal	data_public_repo	81.25395820139329
+eLife	data_public_repo	75.38293216630197
+BMC bioinformatics	dataset_doi_present	89.25473535138963
+BMC genomics	dataset_doi_present	77.15892213027796
+Bioinformatics (Oxford, England)	dataset_doi_present	84.0575846440949
+Cell	dataset_doi_present	68.55439642324889
+Cell genomics	dataset_doi_present	94.97354497354497
+EMBO reports	dataset_doi_present	56.15883306320908
+Frontiers in genetics	dataset_doi_present	68.03888308977035
+Genome biology	dataset_doi_present	83.68908578332662
+Genome research	dataset_doi_present	83.74670184696569
+Lancet (London, England)	dataset_doi_present	26.24338624338624
+Molecular systems biology	dataset_doi_present	80.30513176144244
+NAR genomics and bioinformatics	dataset_doi_present	96.14035087719299
+Nature	dataset_doi_present	64.76672029418525
+Nature communications	dataset_doi_present	54.744490993869675
+Nature genetics	dataset_doi_present	81.78835110746515
+Nature medicine	dataset_doi_present	54.166666666666664
+Nucleic acids research	dataset_doi_present	53.794037940379404
+PLoS biology	dataset_doi_present	53.945140535049106
+PLoS genetics	dataset_doi_present	54.285714285714285
+Science (New York, N.Y.)	dataset_doi_present	59.38461538461538
+The EMBO journal	dataset_doi_present	60.29132362254591
+eLife	dataset_doi_present	71.623234533519
+BMC bioinformatics	code_available	34.34236147990794
+BMC genomics	code_available	16.072565245066837
+Bioinformatics (Oxford, England)	code_available	61.07704612103439
+Cell	code_available	43.81520119225038
+Cell genomics	code_available	80.15873015873017
+EMBO reports	code_available	10.94003241491086
+Frontiers in genetics	code_available	11.403966597077245
+Genome biology	code_available	45.87192911800242
+Genome research	code_available	39.894459102902374
+Lancet (London, England)	code_available	3.1746031746031744
+Molecular systems biology	code_available	31.484049930651874
+NAR genomics and bioinformatics	code_available	77.89473684210526
+Nature	code_available	28.59112847621236
+Nature communications	code_available	20.348410613268953
+Nature genetics	code_available	44.38063986874488
+Nature medicine	code_available	24.916666666666668
+Nucleic acids research	code_available	13.170731707317074
+PLoS biology	code_available	18.862174060277685
+PLoS genetics	code_available	10.470383275261325
+Science (New York, N.Y.)	code_available	24.923076923076923
+The EMBO journal	code_available	15.13616212792907
+eLife	code_available	27.4020290431669
+BMC bioinformatics	protocol_shared	0.21242697822623471
+BMC genomics	protocol_shared	0.551665605771271
+Bioinformatics (Oxford, England)	protocol_shared	0.18661690215942417
+Cell	protocol_shared	2.384500745156483
+Cell genomics	protocol_shared	2.6455026455026456
+EMBO reports	protocol_shared	0.9724473257698543
+Frontiers in genetics	protocol_shared	0.6002087682672234
+Genome biology	protocol_shared	0.9262988320579945
+Genome research	protocol_shared	0.6332453825857519
+Lancet (London, England)	protocol_shared	3.492063492063492
+Molecular systems biology	protocol_shared	1.5256588072122053
+NAR genomics and bioinformatics	protocol_shared	0.5263157894736842
+Nature	protocol_shared	2.1144564467938403
+Nature communications	protocol_shared	0.81422045492201
+Nature genetics	protocol_shared	1.8867924528301887
+Nature medicine	protocol_shared	1.8333333333333333
+Nucleic acids research	protocol_shared	0.35907859078590787
+PLoS biology	protocol_shared	24.381984422621063
+PLoS genetics	protocol_shared	11.533101045296167
+Science (New York, N.Y.)	protocol_shared	1.5384615384615385
+The EMBO journal	protocol_shared	1.5832805573147564
+eLife	protocol_shared	1.9196339765267554
+BMC bioinformatics	source_data_present	5.930253142149053
+BMC genomics	source_data_present	1.994483343942287
+Bioinformatics (Oxford, England)	source_data_present	5.545187949880033
+Cell	source_data_present	4.023845007451564
+Cell genomics	source_data_present	7.671957671957672
+EMBO reports	source_data_present	55.10534846029174
+Frontiers in genetics	source_data_present	1.5005219206680585
+Genome biology	source_data_present	3.946838501812324
+Genome research	source_data_present	1.688654353562005
+Lancet (London, England)	source_data_present	8.253968253968253
+Molecular systems biology	source_data_present	36.47711511789182
+NAR genomics and bioinformatics	source_data_present	4.035087719298246
+Nature	source_data_present	56.17099517352333
+Nature communications	source_data_present	49.24376908329191
+Nature genetics	source_data_present	36.17719442165709
+Nature medicine	source_data_present	53.583333333333336
+Nucleic acids research	source_data_present	4.86449864498645
+PLoS biology	source_data_present	32.678631899762955
+PLoS genetics	source_data_present	14.198606271777003
+Science (New York, N.Y.)	source_data_present	3.6923076923076925
+The EMBO journal	source_data_present	64.21785940468651
+eLife	source_data_present	51.09409190371991
