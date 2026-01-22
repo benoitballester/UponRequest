@@ -10,7 +10,7 @@ Using full text JATS XML articles from PubMed Central Open Access, we detect and
 
 The repository accompanies a policy and meta research analysis and is intended to support transparency, reproducibility, and independent auditing.
 
-## Repository content
+## General content
 
 - Scripts for metadata retrieval, XML parsing, and text mining  
 - Rule based classification of request based availability statements  
@@ -19,10 +19,55 @@ The repository accompanies a policy and meta research analysis and is intended t
 
 Large datasets and full text XML corpora are not hosted on GitHub.
 
+## Folder contents
+
+- `0.config/`  
+  Configuration files, including the conda environment file.
+
+- `1.scripts/`  
+  Main analysis pipeline scripts, organised by step:
+  - `00_setup/`
+  - `01_metadata/`
+  - `02_filter/`
+  - `03_download/`
+  - `04_qc/`
+  - `05_upon_request/`
+  - `06_open_science/`
+  - `07_plots/` (notebooks)
+
+- `2.data/`  
+  Data tables used by the pipeline.  
+  Note: this directory is empty in the shared archive.
+
+- `3.xml/`  
+  Placeholder for full-text JATS XML files (not hosted on GitHub). Includes a short `README.txt`.
+
+- `3.no_cc_code/`  
+  Notes about code or components not redistributed. Includes a short `README.txt`.
+
+- `4.analyses/`  
+  Precomputed analysis outputs and figures (PDFs) used for the manuscript (for example journal-level plots and OSSI summaries), plus supporting subfolders.
+
+## Notebooks
+
+- [under_request_overview.ipynb](1.scripts/07_plots/under_request_overview.ipynb)  
+- [open_science.ipynb](1.scripts/07_plots/open_science.ipynb)
+
+
 ## Data availability
 
 Full text XML files and large derived datasets used for the analyses are archived separately on Zenodo.  
 Links to the corresponding Zenodo records will be provided.
+
+## Usage
+
+To reproduce the analysis:
+
+1. Clone the repository  
+2. Install dependencies via conda using the provided `environment.yml`  
+3. Place downloaded XML files and large datasets in the appropriate directories as documented  
+4. Run the parsing and classification scripts in order  
+5. Open the notebooks in `07_plots/` to regenerate figures
 
 ## Status
 
