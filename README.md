@@ -1,45 +1,40 @@
-# UponRequest
+# Upon Request
 
-This repository contains code to study data availability statements such as “data available upon request” in the scientific articles.
+This repository contains the code and lightweight data tables used to analyse the use of request based data availability statements such as “data available upon request” in the genomics, genetics, and bioinformatics literature.
 
-The project focuses on large scale text mining of full text articles to detect, classify, and quantify request based access practices across journals, years.
+The analyses focus on how often such wording is used, how it has changed over time, and how it relates to other signals of open science support at the article and journal level.
 
-## Project goals
+## Overview
 
-The main objectives of this project are to:
+Using full text JATS XML articles from PubMed Central Open Access, we detect and classify “upon request” statements and distinguish between vague formulations and cases linked to explicit access mechanisms or legitimate restrictions. In parallel, we extract multiple indicators of open science practices, including data deposition, code availability, protocol sharing, and source data provision.
 
-- Identify data availability statements relying on request based access  
-- Distinguish genuine restrictions from formal or misleading formulations  
-- Quantify temporal and journal specific trends  
-- Support reproducibility, meta research, and policy analysis on data sharing practices  
+The repository accompanies a policy and meta research analysis and is intended to support transparency, reproducibility, and independent auditing.
 
-## Scope
+## Repository content
 
-The analyses are based on structured full text articles, primarily JATS XML files, and rely on automated parsing and rule based pattern matching.
+- Scripts for metadata retrieval, XML parsing, and text mining  
+- Rule based classification of request based availability statements  
+- Extraction and scoring of open science support indicators  
+- Small derived tables and reference files stored in `2.data/`  
 
-This repository is intended as a research and analysis codebase, not as a general purpose software library.
+Large datasets and full text XML corpora are not hosted on GitHub.
 
-## Repository structure
+## Data availability
 
-The repository is organized into logical steps, typically including:
-
-- Metadata collection and filtering  
-- Full text parsing and extraction  
-- Detection and classification of data availability language  
-- Aggregation, scoring, and summary analyses  
-
-Details about individual scripts and workflows will be added progressively.
+Full text XML files and large derived datasets used for the analyses are archived separately on Zenodo.  
+Links to the corresponding Zenodo records will be provided.
 
 ## Status
 
-This repository is under active development.  
-The structure, scripts, and outputs may evolve as analyses are refined.
+This repository reflects the analysis pipeline used for the associated manuscript.  
+Minor updates and documentation improvements may occur, but the overall structure is stable.
 
 ## License
 
 This project is released under the GNU General Public License v3.0.  
-See the [LICENCE](LICENSE) file for details.
+See the LICENSE file for details.
 
 ## Citation
 
-If you use this code or derived analyses in academic work, citation information will be provided in a dedicated `CITATION.cff` file at a later stage.
+If you use this code or derived analyses in academic work, please cite the associated manuscript.  
+A `CITATION.cff` file will be added.
