@@ -1,12 +1,12 @@
 # Upon Request
 
-This repository contains the code and lightweight data tables used to analyse the use of request based data availability statements such as “data available upon request” in the genomics, genetics, and bioinformatics literature.
+This repository contains the code and data tables used to analyse the use of request based data availability statements such as “data available upon request” in the genomics, genetics, and bioinformatics literature between 2010 and 2025.
 
 The analyses focus on how often such wording is used, how it has changed over time, and how it relates to other signals of open science support at the article and journal level.
 
 ## Overview
 
-Using full text JATS XML articles from PubMed Central Open Access, we detect and classify “upon request” statements and distinguish between vague formulations and cases linked to explicit access mechanisms or legitimate restrictions. In parallel, we extract multiple indicators of open science practices, including data deposition, code availability, protocol sharing, and source data provision.
+Using full text XML articles from PubMed Central Open Access, we detect and classify “upon request” statements and distinguish between vague formulations and cases linked to explicit access mechanisms or legitimate restrictions. In parallel, we extract multiple indicators of open science practices, including data deposition, code availability, protocol sharing, and source data provision.
 
 The repository accompanies a policy and meta research analysis and is intended to support transparency, reproducibility, and independent auditing.
 
@@ -37,10 +37,10 @@ Large datasets and full text XML corpora are not hosted on GitHub.
 
 - `2.data/`  
   Data tables used by the pipeline.  
-  Note: this directory is empty in the shared archive.
+  Note: this directory is empty [in Zenodo](URL).
 
 - `3.xml/`  
-  Placeholder for full-text JATS XML files (not hosted on GitHub). Includes a short `README.txt`.
+  Placeholder for full-text JATS XML files (not hosted on GitHub, [in Zenodo](URL). Includes a short `README.txt`.
 
 - `3.no_cc_code/`  
   Notes about code or components not redistributed. Includes a short `README.txt`.
