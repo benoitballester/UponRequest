@@ -51,7 +51,10 @@ Large datasets and full text XML corpora are not hosted on GitHub.
 ## Notebooks
 
 - [under_request_overview.ipynb](1.scripts/07_plots/under_request_overview.ipynb)  
-- [open_science.ipynb](1.scripts/07_plots/open_science.ipynb)
+  Summary analysis of the prevalence, classification, and temporal trends of “data available upon request” statements across journals and years.
+
+- [open_science.ipynb](1.scripts/07_plots/open_science.ipynb)  
+  Analysis of open science support indicators (OSSI).
 
 
 ## Data availability
