@@ -1,3 +1,8 @@
-
+3.xml/*
+3.no_cc_code_html/*
+X.archive/*
+1.scripts/99_misc/*
+0.config/ncbi_api.key
+.DS_Store
 4.analyses/.DS_Store
 4.analyses/open_science/.DS_Store
