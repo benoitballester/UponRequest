@@ -41,7 +41,7 @@ TIMEOUT       = 45
 RETRY_LIMIT   = 3
 SLEEP_BETWEEN = (0.6, 1.2)   # jitter between requests
 
-EMAIL = os.environ.get("NCBI_EMAIL", "benoit.ballester@inserm.fr")
+EMAIL = os.environ.get("NCBI_EMAIL", "NAME@inserm.fr")
 HEADERS = {
     "User-Agent": f"PMC-OAI-Downloader (contact: {EMAIL})",
     "Accept": "application/xml"

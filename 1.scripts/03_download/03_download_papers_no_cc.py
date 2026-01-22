@@ -48,7 +48,7 @@ TIMEOUT       = 45
 RETRY_LIMIT   = 3
 SLEEP_BETWEEN = (5.0, 8.0) # long sleeps to stay far below limits
 
-EMAIL = os.environ.get("NCBI_EMAIL", "benoit.ballester@inserm.fr")
+EMAIL = os.environ.get("NCBI_EMAIL", "NAME@inserm.fr")
 HEADERS = {
     "User-Agent": f"PMC-noCC-Downloader (contact: {EMAIL})",
     "Accept": "application/xml"

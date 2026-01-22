@@ -42,7 +42,7 @@ from Bio import Entrez
 # =========================
 # CONFIG
 # =========================
-Entrez.email = os.environ.get("NCBI_EMAIL", "benoit.ballester@inserm.fr")
+Entrez.email = os.environ.get("NCBI_EMAIL", "NAME@inserm.fr")
 API_KEY_PATH = Path("0.env/ncbi_api.key")
 if API_KEY_PATH.exists():
     Entrez.api_key = API_KEY_PATH.read_text().strip()
