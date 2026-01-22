@@ -1,0 +1,31 @@
+name: bio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - biopython
+  - pybedtools
+  - pyranges
+  - snakemake
+  - jupyterlab
+  - ipykernel
+  - spyder-kernels=3.0
+  - palettable
+  - colorcet
+  - lxml
+  - aria2
+  - tqdm
+  - gender-guesser
+  - country_converter
+  - pycountry
+  - statsmodels
+  - patsy
+  - awscli
+  - jupyter
+prefix: /Users/benoit/miniforge3/envs/bio

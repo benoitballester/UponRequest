@@ -1,0 +1,111 @@
+# Config for 08d_parse_open_science.py
+# Single-quoted regex strings so backslashes are literal.
+# This version expands repository coverage (DDBJ, ENCODE, data.gouv.fr, (UCSC sessions WILL NEED A DIFFERENT SCORING
+# for that), etc.).
+
+# ------------------------------
+# Repository / Accession patterns
+# ------------------------------
+repo_patterns:
+  - name: 'GEO'
+    regex: '\b(Gene\s+Expression\s+Omnibus|GEO|GSE\d+|GSM\d+)\b'
+  - name: 'SRA'
+    regex: '\b(SRA|SRR\d+|SRP\d+|SRS\d+|PRJNA\d+)\b'
+  - name: 'ENA'
+    regex: '\b(ENA|ERR\d+|ERP\d+|ERX\d+)\b'
+  - name: 'DDBJ'
+    regex: '\bDDBJ\b|\b(DRR|DRP|DRA)\d+\b'
+  - name: 'ArrayExpress'
+    regex: '\bArrayExpress\b|\bE\-(MTAB|GEOD|MEXP)\-\d+\b'
+  - name: 'PRIDE'
+    regex: '\b(PRIDE|ProteomeXchange|PXD\d+)\b'
+  - name: 'MassIVE'
+    regex: '\bMassIVE\b|\bMSV\d+\b'
+  - name: 'Metabo'
+    regex: '\bMetabo(lites|lomics\s*Workbench)\b'
+  - name: 'OpenNeuro'
+    regex: '\bOpenNeuro\b|\b(?:DS|ds)\d{6}\b'
+  - name: 'dbGaP'
+    regex: '\bdbGaP\b|\bphs\d+\.\d+\b'
+  - name: 'EGA'
+    regex: '\bEGA[SDAC]?\d+\b|\bEuropean\s+Genome\-phenome\s+Archive\b'
+  - name: 'ENCODE'
+    regex: '\bENCODE\b|encodeproject\.org/[^\s)]+|\b(ENCSR|ENCFF|ENCBS)\w+\b'
+  - name: 'Zenodo'
+    regex: '\bZenodo\b|10\.5281/zenodo\.\d+'
+  - name: 'Figshare'
+    regex: '\bFigshare\b|10\.6084/m9\.figshare\.\d+'
+  - name: 'Dryad'
+    regex: '\bDryad\b|10\.5061/dryad\.[A-Za-z0-9]+\b'
+  - name: 'PANGAEA'
+    regex: '\bPANGAEA\b|10\.1594/PANGAEA\.\d+'
+  - name: 'MendeleyData'
+    regex: '\bMendeley\s*Data\b|10\.17632/[A-Za-z0-9\.]+'
+  - name: 'Dataverse'
+    regex: 'dataverse\.[A-Za-z0-9\.\-]+/[^\s)]+|10\.7910/DVN/[A-Za-z0-9]+'
+  - name: 'DANDI'
+    regex: '\bDANDI\b|dandiarchive\.org/[^\s)]+|\bDANDI:\d+\b'
+  - name: 'DataGouv'
+    regex: '(?:\brecherche\.)?data\.gouv\.fr/[^\s)]+'
+  - name: 'OSF'
+    regex: '\bOSF\b|osf\.io/[a-z0-9]{5}\b'
+  - name: 'Addgene'
+    regex: '\bAddgene\b|Addgene\s*#?\s*\d+\b'
+  - name: 'PDB'
+    regex: '\bPDB\b|\b(?!EMD\-)\w{4}\b(?=.*Protein\s+Data\s+Bank)'
+  - name: 'EMDB'
+    regex: '\b(EMDB|EMD\-\d+)\b'
+
+accession_patterns:
+  - '\bGSE\d+\b'
+  - '\bGSM\d+\b'
+  - '\bSR[RPX]\d+\b'
+  - '\bSRS\d+\b'
+  - '\bPRJNA\d+\b'
+  - '\bE\-(?:MTAB|GEOD|MEXP)\-\d+\b'
+  - '\bPXD\d+\b'
+  - '\bMSV\d+\b'
+  - '\bphs\d+\.\d+\b'
+  - '\bEGA[SDAC]?\d+\b'
+  - '\bEMD\-\d+\b'
+  - '\b(DRR|DRP|DRA)\d+\b'        # DDBJ family
+  - '\bENCSR[A-Za-z0-9]+\b'       # ENCODE experiments
+  - '\bENCFF[A-Za-z0-9]+\b'       # ENCODE files
+  - '\bENCBS[A-Za-z0-9]+\b'       # ENCODE biosamples
+
+# ------------------------------
+# Other regexes
+# ------------------------------
+code_host_regex: '(?:github|gitlab|bitbucket|codeocean)\.com/[^\s)]+'
+repro_env_regex: 'environment\.ya?ml|requirements\.txt|Dockerfile|Singularity|nextflow\.config|Snakefile|\.cwl|\.wdl|\.ipynb'
+protocol_regex: 'protocols\.io|Nature\s+Protocol\s+Exchange|Registered\s+protocol|preregistration|PROSPERO'
+license_regex: 'Creative\s+Commons|\bCC\s?BY(?:\-SA|\-NC|\-ND)?\b|\bCC0\b|MIT\s+License|BSD\s+(?:2\-Clause|3\-Clause)|Apache\s+License|GPL\-?v?\d'
+rrid_regex: 'RRID:[A-Z_]+:\S+'
+orcid_regex: '\b(?:ORCID:)?\s?\d{4}\-\d{4}\-\d{4}\-\d{3}[\dX]\b'
+doi_regex: '\b10\.\d{4,9}/\S+\b'
+dataset_doi_hint_regex: '(DataCite|dataset|data\s+set).*?10\.\d{4,9}/\S+'
+source_data_regex: 'Source\s+Data|Underlying\s+data|Raw\s+data\s+for\s+Fig'
+key_resources_table_regex: 'Key\s+Resources\s+Table'
+sec_type_regex: '\b(data-availability|availability|code-availability)\b'
+under_request_regex: 'available\s+upon\s+request|upon\s+request|available\s+on\s+request'
+
+license_tags: ['license', 'license-p', 'license-ref', 'permissions']
+controlled_repo_types: ['dbGaP', 'EGA']
+dataset_doi_infer_from_repos: ['Zenodo', 'Figshare']
+
+# ------------------------------
+# Scoring
+# ------------------------------
+score_weights:
+  data_public_repo: 4
+  data_multi_repo_bonus: 1
+  data_controlled_access: 2
+  code_available: 2
+  repro_env: 1
+  protocol_shared: 1
+  identifier_hygiene: 1
+  open_license_present: 1
+  source_data_present: 1
+
+penalties:
+  ur_with_accession_and_not_genuine: 2

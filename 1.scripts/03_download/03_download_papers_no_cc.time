@@ -1,0 +1,11 @@
+
+================ SUMMARY ================
+Elapsed time: 39.8 min
+OK:   5537
+SKIP: 213
+404:  0
+FAIL: 0
+Resumed from previous log: 0 completed, 0 failed.
+=========================================
+Results logged in: 3.no_cc_code/download_log.txt
+XML files saved to: 3.no_cc_code/
