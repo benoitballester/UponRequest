@@ -80,9 +80,9 @@ Minor updates and documentation improvements may occur, but the overall structur
 ## License
 
 This project is released under the GNU General Public License v3.0.  
-See the LICENSE file for details.
+See the [LICENSE](LICENCE) file for details.
 
 ## Citation
 
 If you use this code or derived analyses in academic work, please cite the associated manuscript.  
-A `CITATION.cff` file will be added.
+A [CITATION.cff](CITATION.cff) file will be added.
