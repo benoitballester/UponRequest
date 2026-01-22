@@ -4,6 +4,7 @@
   <img src="header.png" alt="upon_request" width="100%">
 </p>
 
+
 This repository contains the code and data tables used to analyse the use of request based data availability statements such as “data available upon request” in the genomics, genetics, and bioinformatics literature between 2010 and 2025.
 
 The analyses focus on how often such wording is used, how it has changed over time, and how it relates to other signals of open science support at the article and journal level.
