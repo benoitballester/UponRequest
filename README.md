@@ -80,7 +80,7 @@ Minor updates and documentation improvements may occur, but the overall structur
 ## License
 
 This project is released under the GNU General Public License v3.0.  
-See the [LICENSE](LICENCE) file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ## Citation
 
