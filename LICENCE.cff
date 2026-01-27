@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated resources in academic work, please cite the software record and the related Zenodo datasets below."
+title: "UponRequest: Text mining and analysis of 'data available upon request' statements in scientific articles"
+type: software
+authors:
+  - family-names: Ballester
+    given-names: Benoît
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Ballester
+      given-names: Benoît
+  year: 2026
+  title: "Code: Text mining and analysis of 'data available upon request' statements in scientific articles"
+  version: "v1"
+  publisher: Zenodo
+  doi: 10.5281/zenodo.18339878
+  url: "https://doi.org/10.5281/zenodo.18339878"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18339878
+  - type: url
+    value: "https://doi.org/10.5281/zenodo.18339878"
+references:
+  - type: article
+    authors:
+      - family-names: Ballester
+        given-names: Benoît
+    year: 2026
+    title: "From 'data available upon request' to accountable data access in genomics"
+    doi: "to-be-added"
+  - type: dataset
+    authors:
+      - family-names: Ballester
+        given-names: Benoît
+    year: 2026
+    title: "XML: PubMed Central Open Access Subset JATS XML files used for 'data available upon request' analyses (2010–2025)"
+    publisher: Zenodo
+    doi: 10.5281/zenodo.18377386
+    url: "https://doi.org/10.5281/zenodo.18377386"
+  - type: dataset
+    authors:
+      - family-names: Ballester
+        given-names: Benoît
+    year: 2026
+    title: "Data: Text mining and analysis of 'data available upon request' statements in scientific articles"
+    publisher: Zenodo
+    doi: 10.5281/zenodo.18375259
+    url: "https://doi.org/10.5281/zenodo.18375259"
