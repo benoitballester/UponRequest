@@ -73,6 +73,9 @@ Full text JATS XML files were retrieved from the PubMed Central Open Access Subs
 
 PMC Open Access Subset [Internet]. Bethesda (MD): National Library of Medicine. 2003 - [2026/01/27]. Available from https://pmc.ncbi.nlm.nih.gov/tools/openftlist/.
 
+For automated retrieval, PMC indicates that the Cloud Service, OAI-PMH, FTP, E-Utilities and BioC API are the only services that may be used. 
+
+
 ## Usage
 
 To reproduce the analysis:
