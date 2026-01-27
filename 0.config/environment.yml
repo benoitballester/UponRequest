@@ -28,4 +28,5 @@ dependencies:
   - patsy
   - awscli
   - jupyter
+  - openpyxl
 prefix: /Users/benoit/miniforge3/envs/bio
