@@ -67,6 +67,15 @@ Large datasets and full text XML corpora are not hosted on GitHub.
 Full text XML files and large derived datasets used for the analyses are archived separately on Zenodo.  
 Links to the corresponding Zenodo records will be provided.
 
+### Data source
+
+Full text JATS XML files were retrieved from the PubMed Central Open Access Subset using the PMC OAI-PMH service (GetRecord requests). License terms vary by article; users are solely responsible for complying with the terms defined by the copyright holder. 
+
+PMC Open Access Subset [Internet]. Bethesda (MD): National Library of Medicine. 2003 - [2026/01/27]. Available from https://pmc.ncbi.nlm.nih.gov/tools/openftlist/.
+
+For automated retrieval, PMC indicates that the Cloud Service, OAI-PMH, FTP, E-Utilities and BioC API are the only services that may be used. 
+
+
 ## Usage
 
 To reproduce the analysis:
