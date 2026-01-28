@@ -1,4 +1,4 @@
-# Upon Request
+# Text mining and analysis of “data available upon request” statements in scientific articles
 
 <p align="center">
   <img src="header.png" alt="upon_request" width="100%">
